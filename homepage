@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The XLab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: #111;
+        }
+
+        nav h1 {
+            color: #ff1a1a;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            color: #ff1a1a;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0;
+            color: #aaa;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            margin: 10px;
+            border: 2px solid #ff1a1a;
+            color: white;
+            background: transparent;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff1a1a;
+            box-shadow: 0 0 15px #ff1a1a;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 100px 20px;
+        }
+
+        .card {
+            background: #111;
+            padding: 40px;
+            width: 250px;
+            text-align: center;
+            transition: 0.3s;
+            border: 1px solid #222;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px #ff1a1a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>XLab</h1>
+    <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Notes</li>
+        <li>Experiments</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h2>THE XLAB</h2>
+    <p>Think and Code.</p>
+    <button class="btn">Enter The Lab</button>
+    <button class="btn">View Projects</button>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h3>🧠 Learning</h3>
+        <p>Exploring concepts and mastering new skills.</p>
+    </div>
+    <div class="card">
+        <h3>💻 Projects</h3>
+        <p>Turning ideas into real digital creations.</p>
+    </div>
+    <div class="card">
+        <h3>🧪 Experiments</h3>
+        <p>Testing, building, and innovating every day.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 The XLab | Shubham Yadav
+</footer>
+
+</body>
+</html>
